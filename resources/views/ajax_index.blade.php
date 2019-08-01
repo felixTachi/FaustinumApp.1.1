@@ -193,7 +193,7 @@ $(document).ready(function(){
      {
       html = '<div class="alert alert-success">' + data.success + '</div>';
       $('#sample_form')[0].reset();
-      $('#user_table').DataTable().ajax.reload();
+      $('#paiementTable').DataTable().ajax.reload();
      }
      $('#form_result').html(html);
     }
@@ -227,7 +227,7 @@ $(document).ready(function(){
       html = '<div class="alert alert-success">' + data.success + '</div>';
       $('#sample_form')[0].reset();
     //   $('#store_recus').html('');
-      $('#user_table').DataTable().ajax.reload();
+      $('#paiementTable').DataTable().ajax.reload();
      }
      $('#form_result').html(html);
     }
@@ -273,7 +273,7 @@ $(document).ready(function(){
    {
     setTimeout(function(){
      $('#confirmModal').modal('hide');
-     $('#user_table').DataTable().ajax.reload();
+     $('#paiementTable').DataTable().ajax.reload();
     }, 2000);
    }
   })
